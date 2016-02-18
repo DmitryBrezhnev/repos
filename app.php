@@ -5,8 +5,9 @@
 // if there is ?name= .. then $_GET["name"]
 $my_message = $_GET["message"];
 $to = $_GET["to"];
+$email = $_email["email"];
 
-echo "My message is ".$my_message." and is to ".$to;
+echo "My message is ".$my_message." and is to ".$to. " and is email ".$email;
 
 ?>
 
@@ -18,6 +19,9 @@ echo "My message is ".$my_message." and is to ".$to;
    
    <label for="message">Message:* <label><br>
    <input type="text" name="message"><br><br>
+   
+   <label for="email">email:* <label><br>
+   <input type="text" name="email"><br><br>
    
    <!-- This is the save button--> 
    <input type="submit" value="Save to DB">
