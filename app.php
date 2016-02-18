@@ -4,9 +4,9 @@
 //getting the message from address
 // if there is ?name= .. then $_GET["name"]
 $my_message = $_GET["message"];
+$to = $_GET["to"];
 
-
-echo "My message is ".$my_message;
+echo "My message is ".$my_message." and is to ".$to;
 
 ?>
 
