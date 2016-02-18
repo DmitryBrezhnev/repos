@@ -13,8 +13,13 @@ echo "My message is ".$my_message;
 <h2> First application </h2>
 
 <form method="get">
+   <label for="to">to:* <label><br>
+   <input type="text" name="to"><br><br>
+   
    <label for="message">Message:* <label><br>
    <input type="text" name="message"><br><br>
+   
+   <!-- This is the save button--> 
    <input type="submit" value="Save to DB">
    
 <form>
