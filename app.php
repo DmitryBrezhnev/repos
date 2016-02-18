@@ -21,6 +21,7 @@
  }else{
 	 //echo "there is no such thing as message"
 
+}
 //getting the message from address
 // if there is ?name= .. then $_GET["name"]
 $my_message = $_GET["message"];
