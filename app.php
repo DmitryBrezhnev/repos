@@ -1,6 +1,12 @@
 <?
 
 
+//getting the message from address
+// if there is ?name= .. then $_GET
+$my_message = $_GET["message"];
+
+
+echo "My message is ".$my_message;
 
 ?>
 
@@ -12,4 +18,3 @@
    <input name="submit" value="Save to DB">
    
 <form>
-bla bal
