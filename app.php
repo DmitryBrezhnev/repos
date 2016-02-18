@@ -2,7 +2,7 @@
 
 
 //getting the message from address
-// if there is ?name= .. then $_GET
+// if there is ?name= .. then $_GET["name"]
 $my_message = $_GET["message"];
 
 
@@ -14,7 +14,7 @@ echo "My message is ".$my_message;
 
 <form method="get">
    <label for="message">Message:* <label><br>
-   <input name="message" type="text"><br>
-   <input name="submit" value="Save to DB">
+   <input type="text" name="message"><br><br>
+   <input type="submit" value="Save to DB">
    
 <form>
